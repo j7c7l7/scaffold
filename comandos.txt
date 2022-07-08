@@ -1,0 +1,11 @@
+	
+Criar um arquivo direto do cmd: touch arquivo.py
+Criar ambiente virtual: python3 -m venv ~./scaffold
+Ativar ambiente virtual: source \~./scaffold/bin/activate
+
+-- Makefile
+Instalar as coisas: make install
+Usar lint: make lint
+Usar ferramenta de format: make format
+Usar ferramenta de teste: make test
+Usar varias ferramentas de uma vez listadas no all: make all
